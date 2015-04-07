@@ -1,6 +1,8 @@
 approved-browser
 ----------------
 
+[![Build Status](https://travis-ci.org/wankdanker/approved-browser.svg)](https://travis-ci.org/wankdanker/approved-browser)
+
 Client side detection of required browser versions.
 
 install
