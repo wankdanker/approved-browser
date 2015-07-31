@@ -4,7 +4,7 @@
   "description": "Specify minimum versions of browsers and get accept/reject callbacks on approved/disapproved browsers",
   "main": "index.js",
   "dependencies": {
-    "user-agent-parser": "^0.6.0"
+    "ua-parser-js": "^0.7.9"
   },
   "devDependencies": {
     "tape": "^4.0.0"

@@ -1,4 +1,4 @@
-var uap = require('user-agent-parser');
+var uap = require('ua-parser-js');
 
 module.exports = ApprovedBrowser;
 
@@ -10,7 +10,7 @@ function ApprovedBrowser(options, cb) {
 
 	if (!options[browser.name]) {
 		//a minimum version number was not specified for this
-		//browser. If strictness has been requested then 
+		//browser. If strictness has been requested then
 		//this browser fails because it is not on the approved
 		//list
 		if (options.strict) {
